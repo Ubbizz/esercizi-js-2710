@@ -17,7 +17,7 @@
 //     if (number++ % 2 === 0) {
 //         console.log("dispari  " + number);
 //     } else {
-//         console.log("pari " + number);  
+//         console.log("pari " + number);
 //     }
 // }
 
@@ -89,7 +89,7 @@
 
 // let oreVissute = age * 24 * 365.25; //365.25 perchè conta gli anni bisestili
 
-// alert("Hai vissuto circa " + oreVissute + " ore!");    
+// alert("Hai vissuto circa " + oreVissute + " ore!");
 
 
 // 1 esercizio libro: Write a loop that makes seven calls to console.log to output the following triangle:
@@ -129,13 +129,13 @@
 
 // for (let i = 1; i <= 100; i++) {
 //   if (i % 3 === 0 && i % 5 === 0) { // && è l'operatore AND e lo puoi utilizzare nelle stringhe con più operazioni
-//     console.log("FizzBuzz"); 
+//     console.log("FizzBuzz");
 //   } else if (i % 3 === 0) {
-//     console.log("Fizz");     
+//     console.log("Fizz");
 //   } else if (i % 5 === 0) {
-//     console.log("Buzz");     
+//     console.log("Buzz");
 //   } else {
-//     console.log(i);          
+//     console.log(i);
 //   }
 // }
 
@@ -145,12 +145,12 @@
 
 
 // let size = parseInt(prompt("Dimmi un numero"));
-// let board = "";
+// let board = ""; //si può iniziare con una stringa vuota
 
 // for (let row = 0; row < size; row++) {
 //   for (let col = 0; col < size; col++) {
 //     // Alterna fra # e spazio
-//     if ((row + col) % 2 === 0) { 
+//     if ((row + col) % 2 === 0) {
 //       board += " ";
 //     } else {
 //       board += "#"; 
